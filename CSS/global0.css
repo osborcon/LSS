@@ -1,0 +1,520 @@
+header.page-head {
+    background: linear-gradient(360deg, #9b1717, #ad1f2f) !important;
+}
+
+div#sessionModal {
+    z-index: 4000;
+}
+
+.categories-full {
+    display: flex;
+    overflow-x: scroll;
+    background: none;
+    padding: 5px;
+    padding-top: 230px;
+}
+
+.topHat {
+    display: none !important;
+}
+
+@media only screen and (max-width: 1534px) {
+    .fullscreen {
+        display: none !important;
+    }
+    .adjustScreen {
+        display: flex !important;
+        width: 100%;
+        background: #a31b22;
+        overflow: hidden;
+    }
+}
+
+.fullscreen {
+    display: contents;
+}
+
+.adjustScreen {
+    display: none;
+}
+
+span.fa.fa-star {
+    font-size: 33px;
+}
+
+.container {
+    width: 100%;
+}
+
+a.textr.right15.pageHelp.displayb {
+    display: none;
+}
+
+ul.list-links {
+    column-gap: 205px;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+div#contactInfo {
+    background: #f2bf4a;
+    color: #a31b22;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#Cart2 {
+    background: none !important;
+    border: none !important;
+    font-size: 30px;
+    color: #fefefe;
+    margin-top: 15px;
+}
+
+input[type="text"]:not(.noCSSHere),
+input[type="search"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+textarea {
+    max-width: 100% !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-head {
+    display: flex;
+    align-items: center;
+    /* Makes the nav items and logo appear vertically centered with the search box*/
+    margin: 1.5rem;
+}
+
+.logo {
+    padding-left: 0.5%;
+    flex-shrink: 0;
+}
+
+.search-form {
+    margin: 0 1rem;
+    flex-grow: 1;
+    min-width: 18rem;
+    line-height: 20px;
+    padding-top: 17px;
+    padding-left: 10%;
+}
+
+nav.site-nav {
+    padding-left: 10%;
+    padding-top: 0px !important;
+    padding-right: 3%;
+    padding-bottom: 0px !important;
+}
+
+.search-box {
+    width: 100%;
+    padding: 0.4rem;
+    background-color: #ffb;
+}
+
+.site-nav>ul {
+    display: inline-flex;
+    margin: 0;
+    margin-top: -20px;
+}
+
+.site-nav__item {
+    flex-shrink: 0;
+    list-style-type: none;
+    margin: 0 0.55rem;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-flex;
+    padding: 0px !important;
+    margin-bottom: -25px;
+}
+
+.btn-lg,
+.btn-group-lg>.btn {
+    padding: 20px;
+    line-height: 1.33333;
+    border-radius: 6px;
+}
+
+span.wordmark-isu {
+    background-image: url(https://cdn.theme.iastate.edu/img/isu.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: transparent;
+    display: block;
+    font-size: 2.4rem;
+    height: 27px;
+    transition: all 0.5s ease;
+    width: 360px;
+}
+
+header.page-head {
+    background: #ad1e2e;
+    padding: 5px;
+    margin: 0px;
+}
+
+span.wordmark-unit-title {
+    color: white;
+    display: block;
+    font-weight: 900;
+    font-size: 18px;
+    height: 21px;
+    line-height: 21px;
+    margin-top: 9px;
+    transition: all 0.5s ease;
+}
+
+a#navhref {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px;
+    transition: all 0.25s ease;
+}
+
+div#navhref {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+em.fa.fa-user {
+    font-size: 30px;
+}
+
+button.searchMerchHor.btn.btn-default.margin0.width18p {
+    width: 40px;
+}
+
+nav.navbar-site {
+    display: none;
+}
+
+div#contactInfo {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: min-content;
+}
+
+div#ContainDiv {
+    width: 75%;
+}
+
+span.wordmark-unit-title {
+    float: left;
+}
+
+button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    background-color: #c00;
+    vertical-align: middle;
+    color: white;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #a21a20;
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fdc82f;
+    border-color: #a21a21;
+}
+
+button:hover {
+    background-color: #fdc82f;
+    border-color: #a81d28;
+}
+
+.footer {
+    display: none;
+}
+
+.mobileHeader {
+    display: none;
+}
+
+button.viewAll {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    button.viewAll {
+        text-align: center;
+        margin-left: 35%;
+        display: block!important;
+        margin-top: 35px;
+        padding: 15px;
+        font-weight: 800;
+        border-radius: 10px;
+        background: linear-gradient( 360deg, #9b1717, #ad1f2f);
+    }
+    .products-left {
+        display: none!Important;
+    }
+    .products-right {
+        display: none;
+    }
+    .navbar-iastate {
+        display: none!Important
+    }
+    .topHat {
+        width: 100%;
+        border-bottom: solid !important;
+        position: absolute;
+        border-color: white !important;
+        border-width: thick !important;
+        padding-top: 35px!important;
+        display: block !important;
+    }
+    .categories-full {
+        background: none !important;
+        padding-top: 270px !important;
+    }
+    .categories-full {
+        display: flex;
+        overflow-x: scroll;
+        background: white;
+        padding: 5px;
+        background: linear-gradient(180deg, black, transparent) !important;
+    }
+    img.topHat {
+        height: 275px !important;
+        padding: 0px !important;
+    }
+    .img-categories {
+        position: relative;
+    }
+    a.goHome {
+        color: white;
+    }
+    .col-xs-12 {
+        width: 120% !important;
+        float: right !important;
+        display: contents !important;
+    }
+    .top5 {
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        overflow-wrap: break-word !important;
+    }
+    img {
+        height: 70px !important;
+    }
+    .merchLink {
+        width: 100px !important;
+        height: 120px !important;
+    }
+    div#ContainDiv {
+        padding-top: 65px !important;
+    }
+    .itemSearchWrapper {
+        display: none !important;
+    }
+    .searchItem {
+        display: none !important;
+    }
+    .grad {
+        padding-top: 30px;
+    }
+    .footer {
+        position: fixed;
+        display: block !important;
+        left: 0;
+        height: 70px;
+        bottom: 0px;
+        width: 100%;
+        background: #bd0101;
+        z-index: 1200;
+        border-width: thick;
+        text-align: center;
+    }
+    .mobileHeader {
+        position: fixed;
+        display: block !important;
+        left: 0;
+        top: 0;
+        height: 7%;
+        padding-top: 9px;
+        width: 100%;
+        background: linear-gradient(360deg, #bc0000, #ad1e2e);
+        z-index: 2000;
+        text-align: center;
+    }
+    .headTitle {
+        padding-bottom: 10px;
+    }
+    .mobileHeader {
+        font-size: 20px;
+        font-family: system-ui;
+        font-weight: 900;
+        color: white;
+    }
+    span.fa.fa-home {
+        font-size: 31px;
+    }
+    .site-nav__item {
+        width: 23%;
+        margin: 0px !important;
+        flex-shrink: 0;
+        cursor: pointer;
+        white-space: nowrap;
+        display: inline-flex;
+    }
+    .adjustScreen {
+        display: none !important;
+    }
+    header.page-head {
+        display: none;
+    }
+    div#H_Search {
+        display: contents !important;
+        font-size: 17px !important;
+        padding: 0px !important;
+        z-index: 2000 !important;
+    }
+    input.searchBox.searchBoxHor.form-control {
+        width: 127% !important;
+    }
+    .col-sm-34 {
+        position: relative;
+        min-height: 1px;
+        padding: 15px;
+        display: inline-table;
+        text-align: left;
+        text-size-adjust: auto;
+    }
+    .row34 {
+        text-align: left;
+        display: inline-table;
+    }
+    .navbar a {
+        color: black;
+    }
+    h2.row-header__text {
+        color: #333;
+        border-bottom: 4px solid #a41b23;
+        padding: 5px;
+        text-align: left;
+    }
+    img.w3-circle {
+        border-radius: 25px;
+        display: inline;
+        height: 100px !important;
+        width: 100px !important;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        padding: 10px;
+    }
+    h2.row-header__text2 {
+        color: #333;
+        border-bottom: 4px solid #a41b23;
+        padding: 0px;
+        margin: 0px !important;
+        text-align: left !important;
+    }
+    div#H_Search {
+        position: relative;
+        display: inline-block;
+        width: max-content;
+        font-size: 20px;
+        float: right;
+        padding: 30px;
+    }
+    input.searchBox.searchBoxHor.form-control {
+        border: 1px solid #a21a21;
+    }
+    button.searchMerchHor.btn.btn-default.margin0.width18p {
+        border-color: #a21a20;
+    }
+}
+
+.col-sm-34 {
+    position: relative;
+    min-height: 1px;
+    padding: 15px;
+    display: inline-table;
+    text-align: left;
+    text-size-adjust: auto;
+}
+
+.row34 {
+    text-align: left;
+    display: inline-table;
+}
+
+.navbar a {
+    color: black;
+}
+
+h2.row-header__text {
+    color: #333;
+    border-bottom: 4px solid #a11a1f;
+    padding: 5px;
+    text-align: left;
+}
+
+img.w3-circle {
+    border-radius: 25px;
+    display: inline;
+    height: 100px !important;
+    width: 100px !important;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+h2.row-header__text2 {
+    color: #333;
+    border-bottom: 4px solid #f90202;
+    padding: 0px;
+    margin: 0px !important;
+    text-align: left !important;
+}
+
+div#H_Search {
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    font-size: 20px;
+    float: right;
+    padding: 30px;
+}
+
+input.searchBox.searchBoxHor.form-control {
+    border: 1px solid #a71d27;
+}
+
+button.searchMerchHor.btn.btn-default.margin0.width18p {
+    border-color: #9e191b;
+}

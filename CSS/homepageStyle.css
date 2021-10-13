@@ -1,0 +1,452 @@
+                            /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+                        /* 
+    Created on : Jun 9, 2020, 11:07:14 AM
+    Author     : Conner
+*/
+                        
+                        .carousel-inner {
+                            height: 551px!important;
+                        }
+                        
+                        .btn-primary:active,
+                        .btn-primary.active,
+                        .open>.btn-primary.dropdown-toggle {
+                            color: #cc0804!important;
+                            background-color: white!important;
+                            border: none!important;
+                        }
+                        
+                        img.imageTabs {
+                            float: left;
+                            padding: 0px;
+                            transition: all 0.2s ease-in-out;
+                        }
+                        
+                        img.imageTabs:hover {
+                            color: rgba(255, 255, 255, 1);
+                            box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+                        }
+                        
+                        a.NA {
+                            color: black;
+                        }
+                        
+                        a.NA:hover {
+                            color: #a21a20;
+                        }
+                        
+                        a.view {
+                            color: white;
+                        }
+                        
+                        .product-info {
+                            flex: 1 1;
+                            position: relative;
+                            padding: 16px;
+                            text-align: center;
+                            border: 1px solid #DCDEE3;
+                            overflow: unset;
+                            border-top: none;
+                            border-bottom: none;
+                            border-right: none;
+                            text-align: left;
+                            font-weight: 600;
+                        }
+                        
+                        .product-tab {
+                            display: flex;
+                            overflow-x: scroll;
+                            height: 255px;
+                            border: 1px solid #DCDEE3;
+                        }
+                        
+                        img.product-tab-img {
+                            height: 135px;
+                            width: 135px;
+                        }
+                        
+                        .img-center {
+                            text-align: center;
+                        }
+                        
+                        .row-inner {
+                            background: white;
+                            margin: 10px;
+                            padding: 0px;
+                            margin-top: 20px;
+                            border: 1px solid #DCDEE3;
+                            float: left;
+                            height: 577px;
+                        }
+                        
+                        h2.notification {
+                            float: left;
+                            background: #a21a20;
+                            padding: 15px;
+                            width: 20%;
+                            color: white;
+                            overflow: overlay;
+                            text-align: center;
+                        }
+                        
+                        h2.notification1 {
+                            float: right;
+                            background: #f3cece;
+                            padding: 15px;
+                            width: 80%;
+                        }
+                        
+                        h2.product-header {
+                            overflow: hidden;
+                            text-align: left;
+                            font-size: x-large;
+                        }
+                        
+                        h2.product-header:after {
+                            border-top: 3px solid #d6d6d6;
+                            border-bottom: 3px solid #d6d6d6;
+                            content: "";
+                            display: inline-block;
+                            height: .1em;
+                            position: relative;
+                            vertical-align: middle;
+                            width: 100%;
+                            margin-bottom: .15em;
+                        }
+                        
+                        h2.product-header:after {
+                            left: 0.5em;
+                            margin-right: -50%;
+                        }
+                        
+                        .carousel-inner img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        .carousel-inner>.item>img,
+                        .carousel-inner>.item>a>img {
+                            height: 560px!important;
+                            position: absolute;
+                            padding: 0px!important;
+                        }
+                        
+                        .carousel {
+                            background: white;
+                        }
+                        
+                        .carousel-indicators {
+                            display: block;
+                        }
+                        
+                        .carousel-indicators .active {
+                            text-indent: 0;
+                            font-weight: 600 !important;
+                            height: 15px;
+                            width: 15px;
+                            margin: 0;
+                        }
+                        
+                        .carousel-player button,
+                        .carousel-indicators li {
+                            text-indent: 0;
+                            font-weight: 600 !important;
+                            height: 15px;
+                            width: 15px;
+                            margin: 0;
+                        }
+                        
+                        .carousel-player button,
+                        .carousel-indicators li {
+                            text-indent: 0;
+                            font-weight: 600 !important;
+                            height: 15px;
+                            width: 15px;
+                            border: 2px solid #cccccc;
+                            margin: 0;
+                        }
+                        
+                        .carousel-indicators .active {
+                            text-indent: 0;
+                            font-weight: 600 !important;
+                            height: 15px;
+                            width: 15px;
+                            margin: 0;
+                            border: 2px solid #a21a20;
+                        }
+                        
+                        button.btn.btn-primary {
+                            background: white;
+                            color: black;
+                            text-align: left;
+                            border: none!important;
+                            border: none;
+                        }
+                        
+                        button.btn.btn-primary {
+                            transition: background-color .5s;
+                        }
+                        
+                        button.btn.btn-primary:hover {
+                            background: #e7e7e7;
+                        }
+                        
+                        .row-main {
+                            background: white;
+                            margin: 10px;
+                            padding: 15px;
+                            margin-top: 50px;
+                            border: 1px solid #DCDEE3;
+                        }
+                        
+                        h4.row-header__text {
+                            color: #333;
+                            border-bottom: 2px solid #a21a20;
+                            text-align: center;
+                            padding: 5px;
+                        }
+                        
+                        .grad {
+                            background-image: linear-gradient(180deg, #f1be48, white, white, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+                        }
+                        
+                        .col-md-3 {
+                            width: 15%;
+                        }
+                        
+                        .col-md-6 {
+                            width: 70%;
+                        }
+                        
+                        img.tabs {
+                            vertical-align: middle;
+                            border: 1px solid #cccccc;
+                            border-radius: 50px;
+                            padding: 2px;
+                            margin-right: 10px;
+                            width: 32px!important;
+                            height: 32px!important;
+                        }
+                        
+                        .products-left {
+                            background: white;
+                            margin: 10px;
+                            padding: 15px;
+                            margin-top: 10px;
+                            float: left;
+                            width: 48%;
+                            border: 1px solid #DCDEE3;
+                            border-radius: 10px;
+                        }
+                        
+                        .products-right {
+                            background: white;
+                            margin: 10px;
+                            padding: 15px;
+                            margin-top: 10px;
+                            float: right;
+                            width: 48%;
+                            border: 1px solid #DCDEE3;
+                            border-radius: 10px;
+                        }
+                        
+                        .products-full {
+                            background: white;
+                            margin: 10px;
+                            float: right;
+                            margin-top: 10px;
+                            width: 98.7%;
+                            height: initial;
+                        }
+                        
+                        .products-header {
+                            margin: 10px;
+                            float: right;
+                            margin-top: 10px;
+                            width: 98.7%;
+                        }
+                        
+                        td.mTableCell {
+                            border: none!Important;
+                            flex: 1 1;
+                        }
+                        
+                        img.imageBorder {
+                            height: 100px !important;
+                            transition: background-color .5s;
+                        }
+                        
+                        .container {
+                            width: 85%;
+                        }
+                        
+                        div#myCarousel {
+                            background: none;
+                        }
+                        
+                        .item {
+                            height: 551px!important;
+                        }
+                        
+                        @media only screen and (max-width: 1877px) {
+                            td#mcell9 {
+                                display: none;
+                            }
+                            td#mcell4 {
+                                display: none;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 1525px) {
+                            td#mcell3 {
+                                display: none;
+                            }
+                            td#mcell8 {
+                                display: none;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 1212px) {
+                            td#mcell2 {
+                                display: none;
+                            }
+                            td#mcell7 {
+                                display: none;
+                            }
+                            .products-right {
+                                width: 45%;
+                            }
+                            h4 {
+                                text-align: center;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 1210px) {
+                            div#myCarousel {
+                                padding: 50px;
+                                bottom: 50px;
+                                width: 100%;
+                                background: none;
+                                -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+                                -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+                                -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+                                -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+                                transition: width 1s ease-in-out, left 1.5s ease-in-out;
+                            }
+                            .col-md-3.right-col {
+                                right: 30px;
+                                float: left;
+                            }
+                            .row-main {
+                                height: 440px
+                            }
+                            td#mcell1 {
+                                display: inline-block;
+                            }
+                            td#mcell2 {
+                                display: inline-block;
+                            }
+                            td#mcell3 {
+                                display: inline-block;
+                            }
+                            td#mcell4 {
+                                display: inline-block;
+                            }
+                            td#mcell5 {
+                                display: inline-block;
+                            }
+                            td#mcell6 {
+                                display: inline-block;
+                            }
+                            td#mcell7 {
+                                display: inline-block;
+                            }
+                            td#mcell8 {
+                                display: inline-block;
+                            }
+                            td#mcell9 {
+                                display: inline-block;
+                            }
+                            td.mTableCell {
+                                border: none!Important;
+                                flex: 1 1;
+                            }
+                            @media only screen and (max-width: 991px) {
+                                .col-md-3.right-col {
+                                    left: 20px;
+                                    float: left;
+                                    width: 40%;
+                                    border-left: solid;
+                                    bottom: 0px;
+                                    margin-right: 10px;
+                                    padding: 10px;
+                                }
+                                .notification {
+                                    display: none;
+                                }
+                                button.btn.btn-primary {
+                                    text-align: left;
+                                    left: 70px;
+                                    background: none;
+                                }
+                                .col-md-3.left-col {
+                                    width: 51%;
+                                    float: left;
+                                    left: 18px;
+                                    bottom: -1px;
+                                    background: white;
+                                    padding: 10px;
+                                    text-align: center;
+                                }
+                                .row-main {
+                                    width: 300px;
+                                    float: left;
+                                    bottom: 60px;
+                                }
+                                div#myCarousel {
+                                    float: left;
+                                    padding-top: 70px;
+                                    padding-right: 0px;
+                                    padding-bottom: 0px;
+                                    padding-left: 0px;
+                                    width: 100%;
+                                }
+                                .products-left {
+                                    float: right;
+                                    width: 100%;
+                                }
+                                .products-right {
+                                    float: right;
+                                    width: 100%;
+                                }
+                                .row-inner {
+                                    float: right;
+                                    margin-top: 11px;
+                                    width: 100%;
+                                    border: 1px solid #DCDEE3;
+                                }
+                                @media only screen and (max-width: 450px) {
+                                    .row-inner {
+                                        display: none;
+                                    }
+                                    .carousel-inner>.item>img,
+                                    .carousel-inner>.item>a>img {
+                                        height: 250px;
+                                        padding: 0px;
+                                        margin: 0px;
+                                    }
+                                    .product-tab {
+                                        display: none;
+                                    }
+                                    a#mobileCart {
+                                        display: none;
+                                    }
+                                    a#login {
+                                        display: none;
+                                    }
+                                }
+                            }

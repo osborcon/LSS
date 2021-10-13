@@ -1,0 +1,239 @@
+/*
+-----------------------------------------------------------Start Favorites Page Code------------------------------------------------------------------------------------------------------------
+*/
+
+td.favTd {
+    padding: 30px;
+    border-left: none!important;
+    border-right: none!important;
+    border-top: none!important;
+    border-bottom: solid;
+    border-color: gray;
+    display: flex;
+    border-width: thin;
+    width: revert;
+    height: auto;
+}
+span.fa.fa-star.fa-2x {
+    color: #ecd80c;
+    background: none;
+    border: none;
+    font-size: 50px;
+    z-index: 0!important;
+}
+img.imageBorder {
+    height: 100px!important;
+    width: 100px!important;
+}
+.count{
+    background:none;
+}
+
+span.merchSKU {
+    padding-top: 14%;
+    padding-left: 3%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+h2.merchTitle.top0 {
+    width: 100%;
+    padding-top: 55px;
+}
+.merchDesc {
+    padding-left: 42px;
+}
+button.fa.fa-star.fa-2x {
+    color: #ecd80c;
+    background: none;
+    border: none;
+    font-size: 50px;
+    padding: 38px;
+    left: 88%;
+    z-index: 0!important;
+    position: absolute;
+}
+
+button.fa.fa-star.fa-2x:hover {
+    color: #b3b0b0;
+    border: none;
+    background: none;
+}
+button.fa.fa-star.fa-2x:active {
+    color: #ecd80c;
+    border:none;
+    background: none;
+}
+div#count {
+    display: contents;
+}
+.clearData {
+    text-align: center;
+}
+/*Might add this code*/
+td.favTd {
+    padding: 30px;
+    /* border-left: none!important; */
+    border-right: none!important;
+    border-top: none!important;
+    border-bottom: solid;
+    border-color: gray;
+    display: flex;
+    border-width: thin;
+    width: revert;
+    height: 200px;
+    overflow-y: scroll;
+}
+td.favTd {
+    border-color: gray;
+    display: inline-flex;
+    border: solid;
+    border-width: thin;
+    width: 331px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.merchDesc {
+    position: absolute;
+    top: 132px;
+    margin-left: 10px;
+}
+
+button.fa.fa-star.fa-2x {
+    color: #ecd80c;
+    background: none;
+    border: none;
+    font-size: 50px;
+    z-index: 0!important;
+    position: absolute;
+    left: 262px;
+}
+h2.merchTitle.top0 {
+    width: 300px;
+    padding-top: 109px;
+    position: absolute;
+    right: 21px;
+    height: 125px;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.clearData {
+    text-align: center;
+}
+td.favTd {
+    padding: 30px;
+    border-left: none!important;
+    border-right: none!important;
+    border-top: none!important;
+    border-bottom: solid;
+    border-color: gray;
+    display: flex;
+    border-width: thin;
+    width: revert;
+    height: auto;
+}
+span.fa.fa-star.fa-2x {
+    color: #ecd80c;
+    background: none;
+    border: none;
+    font-size: 50px;
+    z-index: 0!important;
+}
+img.imageBorder {
+    height: 100px!important;
+    width: 100px!important;
+}
+.count{
+    background:none;
+}
+
+span.merchSKU {
+    padding-top: 4%;
+}
+h2.merchTitle.top0 {
+    width: 100%;
+    padding-top: 55px;
+}
+.merchDesc {
+    padding-left: 42px;
+}
+button.fa.fa-star.fa-2x {
+    color: #ecd80c;
+    background: none;
+    border: none;
+    font-size: 50px;
+    padding: 38px;
+    left: 88%;
+    z-index: 0!important;
+    position: absolute;
+}
+
+button.fa.fa-star.fa-2x:hover {
+    color: #b3b0b0;
+    border: none;
+    background: none;
+}
+button.fa.fa-star.fa-2x:active {
+    color: #ecd80c;
+    border:none;
+    background: none;
+}
+div#count {
+    display: contents;
+}
+  
+</style>
+/*
+-----------------------------------------------------------Start MerchList CSS------------------------------------------------------------------------------------------------------------
+*/
+
+    button.fa.fa-star.fa-2x {
+        color: #b3b0b0;
+        background: none;
+        float: right;
+        padding: 2px;
+    }
+
+    button.fa.fa-star.fa-2x:hover {
+        color: #ecd80c;
+        border: none;
+    }
+    button.fa.fa-star.fa-2x:active {
+        color: #ecd80c;
+        border: none;
+    } 
+    button.fa.fa-star.fa-2x:focus {
+        color: #ecd80c;
+        border:none;
+    }
+    /*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> Add this if star doesn't work*/
+
+    /*NavBar CSS*/
+
+    span.fa.fa-star {
+        color: white;
+        font-size: 30px;
+    }
+
+.clearData {
+    text-align: center;
+}
+
+td.mTableCell {
+    height: 375px!important;
+}

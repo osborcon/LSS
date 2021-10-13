@@ -1,0 +1,40 @@
+div#H_Search {
+    position relative;
+    display inline-block;
+    font-size 17px!important;
+    float right;
+    margin auto!important;
+    padding0px!important;
+    top20px!important;
+    z-index2000!important;
+}
+
+.imageSearch.col-xs-2 {
+    width100px!important;
+    floatleft!important;
+}
+.itemSearchWrapper {
+    width max-content!important;
+    max-width none!important;
+}
+.itemText {
+    width max-content;
+}
+.itemSearch.col-xs-10.textl {
+    float initial!important;
+}
+
+input.searchBox.searchBoxHor.form-control {
+    border-radius 0px;
+    width auto!important;
+    min-width 300px;
+}
+
+button.searchMerchHor.btn.btn-default.margin0.width18p {
+    display none;
+}
+
+.itemSearchWrapper {
+    top 34px;
+}
+
