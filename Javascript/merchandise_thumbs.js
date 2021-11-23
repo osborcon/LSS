@@ -911,7 +911,7 @@ $(document).ready(function() {
             } else if (this.href.indexOf('28867') !== -1) {
                 $(this).prepend('<img src="/storeimages/422-665791-1_th.jpg">'); //Discs
             } else if (this.href.indexOf('28903') !== -1) {
-                $(this).prepend('<img src="/storeimages/422-665736-1_th.jpg">'); //Drill Bits
+                $(this).prepend('<img src="/storeimages/422-665734-3_th.PNG">'); //Drill Bits
             } else if (this.href.indexOf('28876') !== -1) {
                 $(this).prepend('<img src="/storeimages/422-665798-1_th.jpg">'); //Drill Index
             } else if (this.href.indexOf('28868') !== -1) {
