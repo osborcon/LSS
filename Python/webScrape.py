@@ -27,7 +27,7 @@ with open('sku.csv', 'w', encoding='UTF8') as f:
         prices = [SKU,price,title,desc,thumbnail]
         writer.writerow(prices)
 
-        SKU = SKU + 1   
+        SKU = SKU + 1
         
 
 

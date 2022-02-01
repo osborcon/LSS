@@ -1,0 +1,41 @@
+.navbar.bg-light {
+    background-color: #b90e0e !important;
+    box-shadow: 0px 0px 5px black;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(135 135 135);
+    border-color: rgb(219 219 219);
+}
+
+.navbar-brand {
+    background-color: #b90e0e !important;
+    padding: 2px;
+}
+
+.form-control {
+    border-radius: 4.25rem;
+}
+
+.d-inline-block.align-top {
+    color: white;
+}
+
+.nav-link {
+    color: white!important;
+    float: left!important;
+    font-weight: bold;
+    vertical-align: middle!important;
+    display: inline-block!important;
+    padding-left: 50px!important;
+}
+
+div#H_Search.max_width300 {
+    height: 40px!important;
+    width: max-content!important;
+    padding-left: 500px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    float: left!
+}
